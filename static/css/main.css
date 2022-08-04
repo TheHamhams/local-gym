@@ -10,6 +10,37 @@
     --flame: #eb5e28ff;
 }
 
+footer {
+    background-color: var(--black-olive);
+}
+
+h2 {
+    color: var(--flame);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+blockquote {
+    color: var(--floral-white);
+}
+
+figcaption {
+    color: var(--flame);
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+i {
+    margin-right: 20px;
+    color: var(--flame);
+}
+
 .navbar {
     background-color: var(--black-olive);
 }
@@ -55,21 +86,8 @@
     1px 1px 0 #000;
 }
 
-h2 {
-    color: var(--flame);
-    text-align: center;
-}
-
 .swola p {
     color: var(--floral-white);
-}
-
-blockquote {
-    color: var(--floral-white);
-}
-
-figcaption {
-    color: var(--flame);
 }
 
 .container-big {
@@ -90,20 +108,24 @@ figcaption {
     color: var(--floral-white);
 }
 
-input {
-    width: 100%;
-    border-radius: 5px;
-}
-
 .orange {
     color: var(--flame);
-}
-
-i {
-    margin-right: 20px;
 }
 
 .social {
     text-align: center;
     margin-top: 50px;
+}
+
+.philosophy {
+    margin-top: 20em;
+    color: var(--flame);
+}
+
+.philosophy-img {
+    width: 80%;
+}
+
+.services img {
+    width: 80%;
 }
