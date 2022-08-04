@@ -1,3 +1,34 @@
 * {
     border: 1px solid red;
 }
+
+:root {
+    --floral-white: #fffcf2ff;
+    --pale-silver: rgb(219, 214, 193);
+    --black-olive: #403d39ff;
+    --eerie-black: #252422ff;
+    --flame: #eb5e28ff;
+}
+
+.navbar {
+    background-color: var(--black-olive);
+}
+
+.navbar a {
+    color: var(--flame);
+    background-color: var(--eerie-black);
+}
+
+.navbar-brand {
+    color: var(--floral-white);
+    font-size: 35px;
+}
+
+.nav-pic {
+    width: 250px;
+}
+
+.nav-link {
+    padding: 15px;
+    border-radius: 5px;
+}
