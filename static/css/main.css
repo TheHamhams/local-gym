@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 :root {
     --floral-white: #fffcf2ff;
@@ -91,7 +91,7 @@ i {
 }
 
 .container-big {
-    margin-left: 0;
+    margin-left: 5px;
 }
 
 .signup {
@@ -117,6 +117,8 @@ i {
     margin-top: 50px;
 }
 
+/* About classes */
+
 .philosophy {
     margin-top: 20em;
     color: var(--flame);
@@ -128,4 +130,34 @@ i {
 
 .services img {
     width: 80%;
+}
+
+/* Sign in classes */
+
+.account {
+    margin-top: 20em;
+    margin-bottom: 15em;
+}
+
+.container-account {
+    background-color: var(--pale-silver);
+    border-radius: 8px;
+}
+
+.container-account h2 {
+    color: var(--eerie-black);
+}
+
+.account label {
+    background-color: var(--floral-white);
+    margin-top: 10px;
+}
+
+.account button {
+    background-color: var(--black-olive);
+    color: var(--flame);
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
