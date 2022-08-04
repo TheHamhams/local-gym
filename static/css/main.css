@@ -25,10 +25,73 @@
 }
 
 .nav-pic {
-    width: 250px;
+    width: 200px;
 }
 
 .nav-link {
     padding: 15px;
     border-radius: 5px;
+}
+
+.landing-background {
+    width: 100%;
+    z-index: -1;
+}
+
+.landing-centered {
+    z-index: 1;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: var(--flame);
+    font-size: 65px;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.swola h2 {
+    color: var(--flame);
+    text-align: center;
+}
+
+.swola p {
+    color: var(--floral-white);
+}
+
+blockquote {
+    color: var(--floral-white);
+}
+
+figcaption {
+    color: var(--flame);
+}
+
+.container-swola {
+    margin-left: 0;
+}
+
+.signup {
+    top: 10em;
+    right: 0;
+    width: 16%;
+    float: right;
+    background-color: var(--black-olive);
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+    margin-top: 50px;
+    position: fixed;
+    color: var(--floral-white);
+}
+
+input {
+    width: 100%;
+}
+
+.orange {
+    color: var(--flame);
 }
