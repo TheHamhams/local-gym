@@ -20,17 +20,19 @@
 }
 
 .navbar-brand {
-    color: var(--floral-white);
+    color: var(--pale-silver);
     font-size: 35px;
 }
 
 .nav-pic {
-    width: 200px;
+    width: 150px;
 }
 
 .nav-link {
     padding: 15px;
     border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .landing-background {
@@ -53,7 +55,7 @@
     1px 1px 0 #000;
 }
 
-.swola h2 {
+h2 {
     color: var(--flame);
     text-align: center;
 }
@@ -70,7 +72,7 @@ figcaption {
     color: var(--flame);
 }
 
-.container-swola {
+.container-big {
     margin-left: 0;
 }
 
@@ -90,8 +92,18 @@ figcaption {
 
 input {
     width: 100%;
+    border-radius: 5px;
 }
 
 .orange {
     color: var(--flame);
+}
+
+i {
+    margin-right: 20px;
+}
+
+.social {
+    text-align: center;
+    margin-top: 50px;
 }
